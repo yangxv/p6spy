@@ -56,6 +56,10 @@ javadoc.options.encoding = 'UTF8'
 
 dependencies {
 
+  //格式化sql工具类支持
+  compileOnly 'org.hibernate:hibernate-core:5.3.6.Final'
+  testCompile 'org.hibernate:hibernate-core:5.3.6.Final'
+
   testCompile 'p6spy:p6spy-signedjar-test:1.0.0'
 
   // for providing misc *-nodep artifacts, please note that order matters here
